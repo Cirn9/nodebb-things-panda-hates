@@ -6,7 +6,8 @@
 	"library": "./library.js",
 	"hooks": [
 		{
-			"hook": "action:ajaxify.end", "method": "annoyPanda", "priority": 6
+			"hook": "static:app.load", "method": "init"
 		}
-	]
+	],
+	"scripts": [ "thingsPandaHates.js" ]
 }

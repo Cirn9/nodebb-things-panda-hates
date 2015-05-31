@@ -1,9 +1,9 @@
-(function(module){
-	var thingsPandaHates = {};
-	
-	thingsPandaHates.annoyPanda = function(template, url) {
-		console.log("template: " + template + "\nurl: " + url + "\n");
-	}
-	
-	module.exports = thingsPandaHates;
-}(module));
+"use strict";
+
+var plugin = {};
+
+plugin.init = function(params, callback) {
+	callback();
+};
+
+module.exports = plugin;
