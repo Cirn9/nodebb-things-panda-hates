@@ -1,7 +1,7 @@
 (function(module){
 	var thingsPandaHates = {};
 	
-	thingsPandaHates.parse = function(template, url) {
+	thingsPandaHates.annoyPanda = function(template, url) {
 		console.log("template: " + template + "\nurl: " + url + "\n");
 	}
 	
