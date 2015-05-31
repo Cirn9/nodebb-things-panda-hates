@@ -11,11 +11,11 @@
 		
 			var targetedUsers = ["Chiruno", 
 									"PangoPanjo"];
+									
+			var trackSelected = Math.floor(Math.random() * songArray.length);
 			
 			var audioTag = "<div id='tph-audio'>" + "<audio autoplay><source src=\"http://chir.uno/TargetTracks/" + songArray[trackSelected] +"\" type=\"audio/mpeg\"></audio>" + "</div>";
 			
-			var trackSelected = Math.floor(Math.random() * songArray.length);
-		
 			if($("#user-header-name").length > 0)
 				curName = $("#user-header-name").html();
 				
