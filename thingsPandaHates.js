@@ -9,8 +9,7 @@
 			
 			var songArray = ["Hestia%20Dance.mp3"];
 		
-			var targetedUsers = ["Chiruno", 
-									"PangoPanjo"];
+			var targetedUsers = ["PangoPanjo"];
 									
 			var trackSelected = Math.floor(Math.random() * songArray.length);
 			
