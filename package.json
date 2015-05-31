@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-things-panda-hates",
-  "version": "0.1",
+  "name": "nodebb-plugin-things-panda-hates",
+  "version": "0.1.1",
   "description": "A collection of one or more tools to make Panda miserable.",
   "main": "library.js",
   "scripts": {
