@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-things-panda-hates",
+	"name": "Things Panda Hates",
+	"description": "A collection of one or more tools to make Panda miserable.",
+	"url": "https://github.com/Cirn9/nodebb-things-panda-hates",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:page.load", "method": "annoyPanda", "priority": 6
+		}
+	]
+}
